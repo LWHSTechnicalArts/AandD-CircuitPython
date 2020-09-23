@@ -10,9 +10,9 @@ RED = (255,0,0)
 GREEN = (255,0,0)
 
 while True:
-    pixels.fill(BLUE)   //turn on all pixels
+    pixels.fill(BLUE)   #turn on all pixels
     pixels.show()
     time.sleep(0.5)
-    pixels[1]=RED      //turn on 2nd pixel on left side
+    pixels[1]=RED      #turn on 2nd pixel on left side
     pixels.show()
     time.sleep(1.0)
