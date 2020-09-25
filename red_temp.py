@@ -20,7 +20,7 @@ OFF = (0,0,0)
 while True:
     temp_c = thermistor.temperature
     temp_f = thermistor.temperature * 9 / 5 + 32
-    print("Temperature is: %f C and %f F" % (temp_c, temp_f))
+    print("Temperature is: %.2f C and %.2f F" % (temp_c, temp_f))
     
     if temp_c >= 26:
         pixels.fill(RED)   #turn on all pixels
