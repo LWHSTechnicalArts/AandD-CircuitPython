@@ -1,6 +1,6 @@
 # Circuit Playground Temperature
 # Reads the on-board temperature sensor and prints the value
-# turns red over 26 C
+# turns red over 26 C and blue under 24 C
 
 import time
 import adafruit_thermistor
